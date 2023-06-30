@@ -1,0 +1,6 @@
+# ninja log v5
+9	91	7007012760770365	CMakeFiles/main.dir/static_list.c.obj	4567ca7577068cb5
+91	163	7007014225748831	../bin/main.exe	c58d8cbf6748602c
+2	91	7007014225079770	CMakeFiles/main.dir/main.c.obj	8055cbd10e538c9d
+8	90	7007014225079770	CMakeFiles/main.dir/dynamic_list.c.obj	fe78b2fb41d87612
+0	132	7076255112093624	build.ninja	35115996c7a209ac

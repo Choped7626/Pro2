@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="P1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/bin/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDYNAMIC_LIST"/>
+					<Add option="-DINPUT_FILE=&quot;new.txt&quot;"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/bin/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDYNAMIC_LIST"/>
+					<Add option="-DINPUT_FILE=&quot;new.txt&quot;"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_lists">
+				<Option output="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/bin/test_lists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDYNAMIC_LIST"/>
+					<Add option="-DINPUT_FILE=&quot;new.txt&quot;"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_lists"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_lists/fast">
+				<Option output="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/bin/test_lists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDYNAMIC_LIST"/>
+					<Add option="-DINPUT_FILE=&quot;new.txt&quot;"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_lists/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/dynamic_list.c">
+			<Option target="main"/>
+			<Option target="test_lists"/>
+		</Unit>
+		<Unit filename="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/dynamic_list.h">
+			<Option target="main"/>
+			<Option target="test_lists"/>
+		</Unit>
+		<Unit filename="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/main.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/test.c">
+			<Option target="test_lists"/>
+		</Unit>
+		<Unit filename="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/types.h">
+			<Option target="main"/>
+			<Option target="test_lists"/>
+		</Unit>
+		<Unit filename="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/mario/Documents/1.La Uni/Pro2/Pratica1/Plantilla-Template_P1/Plantilla-Template_P1/P1/config.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
