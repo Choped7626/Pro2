@@ -1,11 +1,4 @@
-/*
- * TITLE: PROGRAMMING II LABS
- * SUBTITLE: Practical 1
- * AUTHOR 1: Mario Lamas Angeriz LOGIN 1: m.lamasa
- * AUTHOR 2: Andrés Rey Luna LOGIN 2: andres.rey1
- * GROUP: 4.3
- * DATE: 13 / 02 / 2023
- */
+
 
 #include <stdio.h>
 #include <stdlib.h>
