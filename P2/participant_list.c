@@ -1,11 +1,3 @@
-/*
- * TITLE: PROGRAMMING II LABS
- * SUBTITLE: Practical 2
- * AUTHOR 1: Mario Lamas Angeriz  LOGIN 1: m.lamasa@udc.es
- * AUTHOR 2: Andrés Rey Luna LOGIN 2: andres.rey1@udc.es
- * GROUP: 4.3
- * DATE: 27 / 03 / 2023
- */
 
 #include "participant_list.h"
 #include <stdbool.h>
